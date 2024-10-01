@@ -21,7 +21,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 echo "Step 2, check if architecture is supported"
-architecture="$(uname -m)"
+architecture="$(uname -m | sed s/aarch64/arm64/ | sed s/x86_64/amd64/)"
 if [ "${architecture}" != "amd64" ] && [ "${architecture}" != "x86_64" ] && [ "${architecture}" != "arm64" ] && [ "${architecture}" != "aarch64" ]; then
     echo "(!) Architecture $architecture unsupported"
     exit 1
@@ -49,7 +49,6 @@ export DEBIAN_FRONTEND=noninteractive
 check_packages ca-certificates curl unzip
 
 # Install clusterctl
-
 
 curl -sSL "https://github.com/kubernetes-sigs/cluster-api/releases/download/${VERSION}/clusterctl-linux-${architecture}" -o "${BIN}/clusterctl"
 chmod +x "${BIN}/clusterctl"
