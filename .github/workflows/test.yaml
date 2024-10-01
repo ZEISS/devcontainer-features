@@ -13,8 +13,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - buf-cli
-          - dart
+          - clusterctl
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -34,8 +33,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - buf-cli
-          - dart
+          - clusterctl
           
     steps:
       - uses: actions/checkout@v4
