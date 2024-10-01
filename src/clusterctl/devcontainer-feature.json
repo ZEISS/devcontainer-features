@@ -1,0 +1,19 @@
+{
+  "name": "clusterctl CLI",
+  "id": "clusterctl",
+  "version": "1.0.1",
+  "description": "The clusterctl CLI tool handles the lifecycle of a Cluster API management cluster.",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "v1.8.3"
+      ],
+      "default": "v1.8.3",
+      "description": "Select or enter clusterctl version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
