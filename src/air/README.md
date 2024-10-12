@@ -1,13 +1,13 @@
 
-# clusterctl CLI (clusterctl)
+# Air - Live reload for Go apps (air)
 
-The clusterctl CLI tool handles the lifecycle of a Cluster API management cluster.
+Air - Live reload for Go apps
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/ZEISS/devcontainer-features/clusterctl:1": {}
+    "ghcr.io/ZEISS/devcontainer-features/air:1": {}
 }
 ```
 
@@ -15,10 +15,10 @@ The clusterctl CLI tool handles the lifecycle of a Cluster API management cluste
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter clusterctl version to install. | string | v1.8.3 |
+| version | Select or enter air version to install. | string | 1.61.0 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ZEISS/devcontainer-features/blob/main/src/clusterctl/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ZEISS/devcontainer-features/blob/main/src/air/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
