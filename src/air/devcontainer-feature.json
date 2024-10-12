@@ -1,0 +1,19 @@
+{
+  "name": "Air - Live reload for Go apps",
+  "id": "air",
+  "version": "1.0.0",
+  "description": "Air - Live reload for Go apps",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "1.61.0"
+      ],
+      "default": "1.61.0",
+      "description": "Select or enter air version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}

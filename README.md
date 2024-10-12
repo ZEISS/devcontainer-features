@@ -10,3 +10,11 @@ It contains development features following the [Development Containers](https://
 ### [`clusterctl`](src/clusterctl/README.md)
 
 Install the `clusterctl` CLI for the Cluster API.
+
+### [`air`](src/air/README.md)
+
+Install the `air` CLI for live-reloading Go applications.
+
+## License
+
+[MIT](/LICENSE)
