@@ -1,0 +1,19 @@
+{
+  "name": "ghc - A teeny tiny git hooks manager tool",
+  "id": "ghc",
+  "version": "1.0.0",
+  "description": "A teeny tiny git hooks manager tool",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": [
+        "0.0.2"
+      ],
+      "default": "0.0.2",
+      "description": "Select or enter ghc version to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}

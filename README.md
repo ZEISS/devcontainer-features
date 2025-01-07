@@ -15,6 +15,10 @@ Install the `clusterctl` CLI for the Cluster API.
 
 Install the `air` CLI for live-reloading Go applications.
 
+### [`ghc`](src/ghc/README.md)
+
+Install the `ghc` teeny tiny git hook manager tool.
+
 ## License
 
 [MIT](/LICENSE)
