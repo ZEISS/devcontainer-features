@@ -1,7 +1,7 @@
 
-# ghc - A teeny tiny git hook manager tool
+# ghc - A teeny tiny git hooks manager tool (ghc)
 
-ghc - A teeny tiny git hook manager tool
+A teeny tiny git hooks manager tool
 
 ## Example Usage
 
@@ -15,10 +15,10 @@ ghc - A teeny tiny git hook manager tool
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter ghc version to install. | string | 1.61.0 |
+| version | Select or enter ghc version to install. | string | 0.0.2 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ZEISS/devcontainer-features/blob/main/src/air/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ZEISS/devcontainer-features/blob/main/src/ghc/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
