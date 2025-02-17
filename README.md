@@ -19,6 +19,10 @@ Install the `air` CLI for live-reloading Go applications.
 
 Install the `ghc` teeny tiny git hook manager tool.
 
+### [`k9s`](src/k9s/README.md)
+
+Install the `k9s` Kubernetes CLI to manage your clusters in style.
+
 ## License
 
 [MIT](/LICENSE)

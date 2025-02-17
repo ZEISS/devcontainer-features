@@ -1,0 +1,17 @@
+{
+    "name": "k9s",
+    "id": "k9s",
+    "version": "1.0.0",
+    "description": "Install [k9s](https://k9scli.io/)",
+    "documentationURL": "https://github.com/zeiss/devcontainer-features/tree/main/src/k9s",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Select or enter k9s version"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
