@@ -7,9 +7,9 @@
     "version": {
       "type": "string",
       "proposals": [
-        "0.1.0"
+        "0.1.1"
       ],
-      "default": "0.1.0",
+      "default": "0.1.1",
       "description": "Select or enter ghc version to install."
     }
   },
