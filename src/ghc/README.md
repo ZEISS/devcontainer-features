@@ -15,7 +15,7 @@ A teeny tiny git hooks manager tool
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter ghc version to install. | string | 0.1.1 |
+| version | Select or enter ghc version to install. | string | latest |
 
 
 
