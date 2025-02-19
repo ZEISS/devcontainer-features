@@ -1,7 +1,7 @@
 {
   "name": "ghc - A teeny tiny git hooks manager tool",
   "id": "ghc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A teeny tiny git hooks manager tool",
   "options": {
     "version": {
@@ -9,7 +9,7 @@
       "proposals": [
         "0.1.1"
       ],
-      "default": "0.1.1",
+      "default": "latest",
       "description": "Select or enter ghc version to install."
     }
   },

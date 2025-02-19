@@ -1,5 +1,13 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+    "build": {
+        "dockerfile": "Dockerfile",
+        // Update 'VARIANT' to pick an Ubuntu version: jammy / ubuntu-22.04, focal / ubuntu-20.04, bionic /ubuntu-18.04
+        // Use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon.
+        "args": {
+          "VARIANT": "ubuntu-22.04"
+        }
+    },
+    "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
     "customizations": {
         "vscode": {
             "settings": {
@@ -18,8 +26,8 @@
         }
     },
     "features": {
+        "ghcr.io/devcontainers/features/node": {},
         "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
-    "remoteUser": "node",
     "updateContentCommand": "npm install -g @devcontainers/cli"
 }
